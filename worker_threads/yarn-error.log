@@ -1,0 +1,36 @@
+Arguments: 
+  /home/labaster/.asdf/installs/nodejs/14.19.3/bin/node /home/labaster/.yarn/bin/yarn.js init
+
+PATH: 
+  /home/labaster/.asdf/plugins/nodejs/shims:/home/labaster/.asdf/installs/nodejs/14.19.3/.npm/bin:/home/labaster/.asdf/installs/nodejs/14.19.3/bin:/home/labaster/.yarn/bin:/home/labaster/.config/yarn/global/node_modules/.bin:/home/labaster/.asdf/shims:/home/labaster/.asdf/bin:/home/labaster/.yarn/bin:/home/labaster/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.19.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/labaster/.yarn/lib/cli.js:137150:13)
+      at Interface.emit (events.js:400:28)
+      at Interface._ttyWrite (readline.js:1001:16)
+      at ReadStream.onkeypress (readline.js:265:10)
+      at ReadStream.emit (events.js:400:28)
+      at emitKeys (internal/readline/utils.js:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1270:36)
+      at ReadStream.emit (events.js:400:28)
+      at addChunk (internal/streams/readable.js:293:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
